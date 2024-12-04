@@ -14,8 +14,7 @@ public class Feedback {
 
     public static void submit(String excercise_id, boolean finished, boolean understood, String comment) {
         try {
-
-            URL url = Builder.formKey("1FAIpQLSfMEXmf1Tyd7sdSClQJ33jCYR9SBWMy-OIyXZuyyvZS99flmA")
+            URL url = Builder.formKey("1FAIpQLSdNiUyqve7glZX7p_6JSN90qspE1iWF4-ZBVF9rfCjGx4vBEg")
                     .put(EXERCISE_ID, excercise_id)
                     .put(FINISHED, (finished)? "Yes": "No")
                     .put(UNDERSTOOD, (understood)? "Yes": "No")
